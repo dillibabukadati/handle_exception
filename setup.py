@@ -3,12 +3,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='handle_exception',
-    version='1.0.0',
+    version='1.0.1',
     description='A Python library for handling exceptions in a clean and organized way',
     author='Dilli Babu Kadati',
     author_email='dillibabukadati777@gmail.com',
     url='https://github.com/dillibk777/handle_exception',
     packages=find_packages(),
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',
